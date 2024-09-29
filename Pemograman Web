@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Pribadi Galang</title>
+</head>
+<body>
+    <!--Tag h1 digunakan untuk judul utama halaman-->
+    <h1>Profil Pribadi</h1>
+
+    <!-- Bagian Profile ini menggunakan div untuk mengelompokkan konten-->
+     <div>
+        <!-- Menggunakan tabel agar foto dan video tampil sejajar-->
+        <table>
+            <tr>
+                <!-- Foto Profil-->
+                <td>
+                    <p><center><b>Foto Profil</b></center></p>
+                    <img src="d:\Dokumen\IMG-20210201-WA0006.jpg"  width="200%" height="200%">
+                 </td>
+                 <!-- Video Perkenalan -->
+                  <td>
+                     <p><center><b>Video Perkenalan</b></center></p>
+                    <video width="100%" controls> 
+                        <source src="d:\Dokumen\WhatsApp Video 2024-09-30 at 00.13.50.mp4" type="video/mp4"
+                        Browser Anda tidak mendukung video.
+                    </video>    
+                </td>
+             </tr>
+        </table>
+    </div>
+    
+    <!-- Bagian Tentang Saya-->
+
+    <h2>Tentang Saya</h2>
+    <p>Halo! Saya Galang Harmaji Pramono dengan NIM 1303220007 adalah seorang pengembang web antuias dengan passion di bidang teknologi dan desain kreatif.</p>
+
+    <!-- Table digunakan untuk menampilkan daftar keterampilan-->
+    <h2><b>Ketrampilan</b></h2>
+    <table>
+        <!-- Tag th digunakan untuk judul kolam -->
+        <tr>
+            <th>Keterampilan</th>
+            <th>Tingkat</th>
+        </tr>
+        <!-- Tag digunakan untuk data sel -->
+         <tr>
+            <td>HTML/CSS</td>
+            <td>Menengah</td>
+         </tr>
+         <tr>
+            <td>JavaScript</td>
+            <td>Menengah</td>
+         </tr>
+         <tr>
+            <td>Python</td>
+            <td>Pemula</td>
+         </tr>
+    </table>
+
+    <!-- Form digunakan untuk membuat bagian kontak -->
+    <h2>Hubungi Saya</h2>
+    <form action="#" method="post"> 
+        <!-- Input untuk menerima nama-->
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama">
+        <br>
+
+        <!-- Input untuk menerima email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <!-- Textarea untuk menerima pesan -->
+        <label  for="pesan">Pesan:</label>
+        <br>
+        <textarea id="pesan" name="pesan" rowa="4" cols="24"></textarea>
+        <br><br>
+
+        <!-- Button untuk mengirimkan form -->
+        <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <!-- Tautan ke media sosial -->
+     <h2>Media Sosial:</h2>
+    <a href="https://linkedin.com" target="_blank">Linkedin</a>
+    <a href="https://github.com" target="_blank">GitHub</a>
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+</body>
+</html>
